@@ -1,0 +1,5 @@
+#使用nanopi4的kernel
+export ARCH=arm64
+export CROSS_COMPILE=aarch64-linux-android-
+make nanopi4_oreo_defconfig
+make
